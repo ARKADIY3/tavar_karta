@@ -3,7 +3,7 @@ const cardWrap = document.querySelector('.card-wrap');
 for(let i = 0; i < data.length ;i++){
     console.log(i);
     cardWrap.innerHTML += `
-    <a href="#" class="card">
+    <a href="${data[i].silka}" class="card">
         <img src="${data[i].img}">
         <h3>${data[i].model}</h3>
         <div class="info">
